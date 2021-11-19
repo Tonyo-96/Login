@@ -108,6 +108,10 @@ button.social {
   transition: 0.2s ease;
   cursor: pointer;
 }
+button.social a{
+  text-decoration: none;
+  color: white
+}
 .facebook {
   background: #32508e;
 }
