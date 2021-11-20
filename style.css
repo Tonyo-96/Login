@@ -108,9 +108,9 @@ button.social {
   transition: 0.2s ease;
   cursor: pointer;
 }
-button.social a{
+button.social a {
   text-decoration: none;
-  color: white
+  color: white;
 }
 .facebook {
   background: #32508e;
@@ -121,24 +121,9 @@ button.social a{
 .google {
   background: #dd4b39;
 }
-@media only screen and (max-width: 1280px) {
-  #login-box {
-    position: absolute;
-    left: 10%;
-    bottom: 30%;
-    margin: 5% auto;
-    height: 400px;
-    width: 600px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    background: #efefef;
-    font-size: 16px;
-    color: #777;
-    font-family: sans-serif;
-    font-weight: 300;
+@media only screan and (max-width: 600px){
+  div{
+    width: 50%;
+    height: 50%;
   }
 }
